@@ -1,0 +1,20 @@
+#----------README----------#
+#---Project Introduction---#
+#This project uses C language to implement a Navi-based virtual machine,
+#and a simplified version of the C language (hereinafter referred to as C--) compiler CCN
+#for the virtual machine.
+#There are three subfolders under the main directory: CCN, Navi, doc.
+#CCN is used to store the relevant source code of the compiler CCN.
+#Navi is used to store the implementation-related source code of the virtual machine.
+#doc is used to store relevant documentation.
+#-----------Navi-----------#
+#Navi is a rudimentary stack-based virtual machine paradigm that contains
+#an imperfect instruction collection system.
+#It has NOT been used on any real CPUs.
+#ONLY USED FOR SELF-PRACTICE.
+#For details about Navi paradigm, see ./doc/Navi.pdf
+#-----------CCN------------#
+#CCN is C-- Compiler for Navi.
+#C--(C_Minus_Minus) is a subset of the C language,
+#which removes some of the grammatical rules in the C language for easier implementation.
+#For details about C-- language, see ./doc/C_Minus_Minus.pdf
